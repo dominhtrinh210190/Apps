@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.Mvc", "App.Mvc\App.Mvc.csproj", "{A725DBEE-B30F-4634-BD3F-76D82835C154}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session1_MiddlewareAndRequestPipeline", "Session1_MiddlewareAndRequestPipeline\Session1_MiddlewareAndRequestPipeline.csproj", "{01D38386-A83B-4D7A-8AF3-6C8005AE21DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A725DBEE-B30F-4634-BD3F-76D82835C154}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A725DBEE-B30F-4634-BD3F-76D82835C154}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A725DBEE-B30F-4634-BD3F-76D82835C154}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A725DBEE-B30F-4634-BD3F-76D82835C154}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01D38386-A83B-4D7A-8AF3-6C8005AE21DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01D38386-A83B-4D7A-8AF3-6C8005AE21DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01D38386-A83B-4D7A-8AF3-6C8005AE21DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01D38386-A83B-4D7A-8AF3-6C8005AE21DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {820B73B0-788E-42A4-BE37-574AFAD12C2B}
+	EndGlobalSection
+EndGlobal
