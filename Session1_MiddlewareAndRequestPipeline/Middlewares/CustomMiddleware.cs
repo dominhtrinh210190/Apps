@@ -9,6 +9,8 @@ namespace Session1_MiddlewareAndRequestPipeline.Middlewares
 {
     public class CustomMiddleware
     {
+        // RequestDelegate là 1 con trỏ trỏ đến middleware tiếp theo
+        // ta tiêm context vào hàm next để chuyển context cho middleware tiếp theo
         private readonly RequestDelegate _next;
         public CustomMiddleware(RequestDelegate next)
         {
