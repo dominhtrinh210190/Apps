@@ -58,7 +58,7 @@ namespace Session1_MiddlewareAndRequestPipeline
             // Thêm EndpointRoutingMiddleware: ánh xạ Request gọi đến Endpoint (Middleware cuối)
             // phù hợp định nghĩa bởi EndpointMiddleware
             app.UseRouting();
-
+             
             // app.UseEndpoint dùng để xây dựng các endpoint - điểm cuối  của pipeline theo Url truy cập
             // Dùng để map các url với các middleware này 
             app.UseEndpoints(endpoints =>
