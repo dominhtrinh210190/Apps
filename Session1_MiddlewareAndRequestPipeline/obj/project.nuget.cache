@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ZPRLYkGihnj94tstsIaUy8DMGe0WmhCulGfIpnAvFc6paz9+hlpV7tPxNTdexphEy3Z3WrnPdrx6Y8G93XhyTw==",
+  "dgSpecHash": "okevEvSQA0FBkdwVPhmzKwiTscI9gJRZHQTYGxTdlviLolb+ZTy2AKoq5xUR5YGsUBIHoWkyqzwac1nslMpCHw==",
   "success": true,
   "projectFilePath": "D:\\LearningNetcore\\Apps\\Session1_MiddlewareAndRequestPipeline\\Session1_MiddlewareAndRequestPipeline.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\TrinhDM\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

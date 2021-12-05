@@ -34,3 +34,5 @@ D:\LearningNetcore\Apps\Session1_MiddlewareAndRequestPipeline\obj\Debug\netcorea
 D:\LearningNetcore\Apps\Session1_MiddlewareAndRequestPipeline\obj\Debug\netcoreapp3.1\Session1_MiddlewareAndRequestPipeline.pdb
 D:\LearningNetcore\Apps\Session1_MiddlewareAndRequestPipeline\obj\Debug\netcoreapp3.1\Session1_MiddlewareAndRequestPipeline.genruntimeconfig.cache
 D:\LearningNetcore\Apps\Session1_MiddlewareAndRequestPipeline\obj\Debug\netcoreapp3.1\Session1_MiddlewareAndRequestPipeline.csproj.CopyComplete
+D:\LearningNetcore\Apps\Session1_MiddlewareAndRequestPipeline\obj\Debug\netcoreapp3.1\Session1_MiddlewareAndRequestPipeline.csprojAssemblyReference.cache
+D:\LearningNetcore\Apps\Session1_MiddlewareAndRequestPipeline\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
