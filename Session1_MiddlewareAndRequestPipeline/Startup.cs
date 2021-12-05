@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -36,7 +37,7 @@ namespace Session1_MiddlewareAndRequestPipeline
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddRazorPages();
+            services.AddMvc();                          // chỉ định chúng ta sử dụng design pattenr MVC
             services.AddDistributedMemoryCache();       // Thêm dịch vụ dùng bộ nhớ lưu cache (session sử dụng dịch vụ này)
             services.AddSession();                      // Thêm  dịch vụ Session, dịch vụ này cunng cấp Middleware: 
         }
@@ -69,6 +70,8 @@ namespace Session1_MiddlewareAndRequestPipeline
 
                 //  EndPoint(2) -  Middleware khi truy cập /Home với phương thức GET - nó làm Middleware cuối Pipeline
                 endpoints.MapGet("/Home", async context => {
+
+                    var getPamraUrl = context.GetRouteValue("action") ?? "value default";
 
                     int? count = context.Session.GetInt32("count");
                     count = (count != null) ? count + 1 : 1;
